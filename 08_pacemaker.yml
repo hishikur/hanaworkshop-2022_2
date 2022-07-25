@@ -1,7 +1,5 @@
 ---
-- name: Set up Pacemaker Cluster
-  hosts: hanas
-  become: yes
+- hosts: hanas
 
   vars:
     sap_hana_ha_pacemaker_hana_sid: RHE

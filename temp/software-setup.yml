@@ -5,7 +5,7 @@
     name:
       - resource-agents-sap-hana
       - pcs
-      - pacemaker
+#      - pacemaker
       - fence-agents-all
     skip_broken: yes
     state: present
